@@ -84,4 +84,8 @@ Challenge 2: Responsive UI
 Issue: Ensuring mobile-friendly layouts.
 Solution: Used TailwindCSS’s responsive utilities and Material UI components.
 
+**Optional/bonus tasks**
+
+**Backend Integration: Fetched product data dynamically from public API.**
+
 🚀 Enjoy shopping with NOVA!
