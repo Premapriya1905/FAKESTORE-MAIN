@@ -1,14 +1,87 @@
-Deploy Link - ( https://fakestore-main.netlify.app/ )
+**E-Commerce Website (NOVA)**
 
-# React + Vite
+Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive e-commerce website built with React, TailwindCSS, and Material UI. The application allows users to browse products, view details, add items to their cart, and proceed to checkout.
 
-Currently, two official plugins are available:
+Live Demo & Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GitHub Repository:[ (https://github.com/Premapriya1905/FAKESTORE-MAIN) ]
 
-## Expanding the ESLint configuration
+Live Deployment: [(https://fakestore-main.netlify.app/)]
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Features**
+
+Product Listing: Fetches product data dynamically from FakeStore API.
+
+Product Details Page: Displays additional product information.
+
+Shopping Cart: Users can add, update, and remove items from their cart.
+
+State Management: Uses React's Context API for managing cart state.
+
+Responsive Design: Optimized for both desktop and mobile views.
+
+
+**Installation & Setup**
+
+To run this project locally, follow these steps:
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Node.js (v14 or later)
+
+npm or yarn
+
+**Steps**
+
+Clone the repository:
+
+git clone [(https://github.com/Premapriya1905/FAKESTORE-MAIN)]
+cd ecommerce-project
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open http://localhost:3000 in your browser.
+
+**Design Choices**
+
+Technology Stack
+
+React: For building the user interface.
+
+TailwindCSS & Material UI: For styling and responsiveness.
+
+React Router: For client-side routing.
+
+FakeStore API: For fetching product data dynamically.
+
+**Why These Choices?**
+
+Performance: TailwindCSS ensures fast and efficient styling.
+
+Scalability: React’s component-based structure allows modular development.
+
+Ease of Integration: FakeStore API allows easy product retrieval.
+
+**Challenges & Solutions**
+
+Challenge 1: State Management
+
+Issue: Managing the cart state efficiently across the application.
+Solution: Implemented Context API to store cart state globally.
+
+Challenge 2: Responsive UI
+
+Issue: Ensuring mobile-friendly layouts.
+Solution: Used TailwindCSS’s responsive utilities and Material UI components.
+
+🚀 Enjoy shopping with NOVA!
